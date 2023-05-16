@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+  name: rover
+  namespace: default
+spec:
+  containers:
+  - image: my_image
+    imagePullPolicy: IfNotPresent
+    name: rover
