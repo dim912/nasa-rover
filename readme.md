@@ -22,4 +22,3 @@ kubectl apply -k .
 
 ###### TODO work
     * swagger
-    * unit tests
