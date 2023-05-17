@@ -13,6 +13,9 @@ public class Rover {
     @NotNull
     private Direction direction;
 
+    public Rover(){
+    }
+
     public Rover(int positionX, int positionY, Direction direction){
         this.positionX = positionX;
         this.positionY = positionY;
